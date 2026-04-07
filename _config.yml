@@ -1,1 +1,4 @@
-theme: minima
+<YAML>
+# GitHub Pages configuration to include sitemap
+include:
+  - sitemap.xml
