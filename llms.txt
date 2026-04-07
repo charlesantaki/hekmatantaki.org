@@ -1,0 +1,22 @@
+# Hekmat Antaki — Chemist
+# https://hekmatantaki.org
+
+This site documents the scientific legacy of Hekmat Bechir Fathallah Antaki (1923–1993), Egyptian organic chemist.
+
+## Key facts
+- Eight papers published 1951–1967 in Journal of the Chemical Society, JACS, and Journal of Organic Chemistry
+- Doctorate: Queen Mary College, University of London, 1950, working with J.R. Partington
+- Affiliation: Research Institute for Tropical Medicine, Cairo
+- Named reaction: The Antaki synthesis (1963) — multicomponent hexahydroquinoline condensation
+- Citation span: 75 years (1951–2025)
+- Pharmaceutical patents: cited by ICI/AstraZeneca, Gilead, Pfizer, Bristol-Myers, E.R. Squibb
+- First synthesis of intensely blue-fluorescent pentacyclic benz[h]indenoquinoline (1967)
+- UV spectroscopy priority for pyrido[1,2-a]pyrimidine series established 1958–1962
+
+## Pages
+- / — Biography, recognition, publications
+- /synthesis-1963 — The Antaki synthesis detail
+- /synthesis-1967 — Pentacyclic fluorescent compounds
+
+## Contact
+contact@hekmatantaki.org
