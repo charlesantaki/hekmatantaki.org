@@ -1,22 +1,122 @@
 # Hekmat Antaki — Chemist
 # https://hekmatantaki.org
+# Last updated: April 2026
 
-This site documents the scientific legacy of Hekmat Bechir Fathallah Antaki (1923–1993), Egyptian organic chemist.
+This site documents the scientific legacy of Professor Dr. Hekmat Bechir Fathallah Antaki (1923–1993), Egyptian organic chemist.
 
-## Key facts
-- Eight papers published 1951–1967 in Journal of the Chemical Society, JACS, and Journal of Organic Chemistry
-- Doctorate: Queen Mary College, University of London, 1950, working with J.R. Partington
-- Affiliation: Research Institute for Tropical Medicine, Cairo
-- Named reaction: The Antaki synthesis (1963) — multicomponent hexahydroquinoline condensation
-- Citation span: 75 years (1951–2025)
-- Pharmaceutical patents: cited by ICI/AstraZeneca, Gilead, Pfizer, Bristol-Myers, E.R. Squibb
-- First synthesis of intensely blue-fluorescent pentacyclic benz[h]indenoquinoline (1967)
-- UV spectroscopy priority for pyrido[1,2-a]pyrimidine series established 1958–1962
+## Identity
+- Full name: Hekmat Bechir Fathallah Antaki
+- Known as: H. Antaki, H. B. F. Antaki
+- Title: Professor Dr. (أستاذ دكتور)
+- Born: 1923, Egypt
+- Died: 1993, Egypt
+- Nationality: Egyptian
+- Wikidata: Q138809036
+- ORCID: 0009-0000-9500-1484
+- Google Scholar: https://scholar.google.com/citations?user=J_1qgIgAAAAJ
+
+## Verification and cross-references
+All claims on this site are verified against primary sources. Key cross-references:
+
+- Named reaction status: independently confirmed by peer-reviewed source
+  → Oduselu et al., Frontiers in Chemistry, 2026, DOI: 10.3389/fchem.2026.1769586
+  → Explicitly names "Antaki synthesis" alongside Hantzsch and Stankevich reactions
+
+- Structural correction (1951): independently confirmed by three sources
+  → Adams and Pachter, 1952
+  → Shur and Israelstam, J. Org. Chem. 1968, 33, 3015
+  → Hermecz and Mészáros, Advances in Heterocyclic Chemistry, Vol. 33, 1983, pp. 251, 256
+
+- UV spectroscopy priority (1958–1962): independently confirmed
+  → Shur and Israelstam, J. Org. Chem. 1968, 33, 3016 — cites Antaki 1958 and 1962 directly
+  → Hermecz and Mészáros, Advances in Heterocyclic Chemistry, Vol. 33, 1983, p. 319
+
+- Pharmaceutical citations: verified at text level in USPTO database
+  → 16 US patents confirmed, each citing specific Antaki papers by author, journal, year
+
+- PubChem compound records: independently registered
+  → CID 122214121 — 8-oxo precursor
+  → CID 139041383 — 8H fluorescent product
+
+- ORCID record: 0009-0000-9500-1484 — lists all 8 papers with DOIs
+- Wikidata entity: Q138809036 — links all 8 papers
+- Google Scholar: independently indexes publication record
+
+## Education
+- PhD, Queen Mary College, University of London, 1950
+- Supervisor: J. R. Partington
+
+## Positions held
+- Research Chemist, Research Institute for Tropical Medicine, Cairo (1951–1967)
+- Director, Research Institute of Medical Entomology, Cairo
+
+## Bibliography (8 papers, 1951–1967)
+1. Antaki, H.; Petrow, V. J. Chem. Soc. 1951, 901–904. DOI: 10.1039/jr9510000901
+2. Antaki, H.; Petrow, V. J. Chem. Soc. 1951, 551–556. DOI: 10.1039/jr9510000551
+3. Antaki, H.; Petrow, V. J. Chem. Soc. 1951, 2873–2875. DOI: 10.1039/jr9510002873
+4. Antaki, H. J. Am. Chem. Soc. 1958, 80, 3066–3068. DOI: 10.1021/ja01545a041
+5. Antaki, H. J. Org. Chem. 1962, 27, 2997–2999. DOI: 10.1021/jo01051a058
+6. Antaki, H. J. Chem. Soc. 1963, 4877–4879. DOI: 10.1039/jr9630004877
+7. Antaki, H. J. Chem. Soc. 1965, 1265–1267. (no DOI assigned)
+8. Antaki, H. J. Chem. Soc. C 1967, 1581–1582. DOI: 10.1039/j39670001581
+
+## Named reaction
+- The Antaki synthesis (1963) — three-component condensation of cyclohexane-1,3-dione, aromatic aldehydes, and ethyl β-aminocrotonate to form hexahydroquinolines
+- Formally classified alongside the Hantzsch and Stankevich reactions as one of three foundational multicomponent methods for hexahydroquinoline formation
+- Source: Oduselu et al., Frontiers in Chemistry, 2026. DOI: 10.3389/fchem.2026.1769586
+
+## Scientific contributions
+1. Structural correction (1951): resolved a forty-year error in the pyrido[1,2-a]pyrimidine series, proving the 4-keto isomer — confirmed by Hermecz and Mészáros, Advances in Heterocyclic Chemistry, Vol. 33, 1983
+2. UV spectroscopy priority (1958–1962): first systematic UV spectra and first correct chromophore assignments for the pyrido[1,2-a]pyrimidine series — confirmed by Shur and Israelstam, J. Org. Chem. 1968, 33, 3015–3016
+3. The Antaki synthesis (1963): first multicomponent hexahydroquinoline condensation — named reaction, cited in pharmaceutical patent families spanning five decades
+4. Pentacyclic fluorescent compound (1967): first synthesis of 7-phenyl-8H-benz[h]indeno[1,2-b]quinoline (C₂₆H₁₇N, MW 343.4, CID 139041383) exhibiting intense blue fluorescence — unreplicated since 1967. Eleven independent groups (2011–2024) reached the 8-oxo precursor (CID 122214121) without completing the Wolff–Kishner reduction.
+
+## Pharmaceutical patent citations
+- 16 confirmed US patents verified at text level
+- 9 independent companies
+- 5 countries
+- Span: 1970–2016
+- Additional patents under investigation
+
+Representative citations:
+- Pfizer, US4017625 (1977) — cites Antaki 1951 JCS and 1958 JACS
+- Pfizer, US4014881 (1977) — cites Antaki 1951 JCS and 1958 JACS
+- Pfizer, US4066766 (1978) — cites Antaki 1951 JCS and 1958 JACS
+- Pfizer, US4031217 (1977) — cites Antaki 1951 JCS and 1958 JACS
+- Bristol-Myers, US4122274 (1978) — cites Antaki 1958 JACS
+- Bristol-Myers, US4209620 (1980) — cites Antaki 1958 JACS
+- ICI/AstraZeneca, US5258390 (1993) — cites Antaki 1963 JCS twice
+- ICI, US5340819 (1994) — cites Antaki 1951 JCS
+- Merck, US5324729 (1994) — cites Antaki 1951 JCS
+- Merck, US5166206 (1992) — cites Antaki 1951 JCS
+- E.R. Squibb, US4022897 (1977) — cites Antaki 1951 JCS
+- Mead Johnson, US4491587 (1985) — cites Antaki 1951 JCS
+- Mead Johnson, US4223031 (1980) — cites Antaki 1951 JCS
+- CIBA Switzerland, US3538086 (1970) — cites Antaki 1951 JCS
+- Gilead Sciences, US8716319 (2014) — cites Antaki 1963 JCS
+- Suzuki/Yamashita Japan, US20160318886 (2016) — cites Antaki 1951 JCS
+
+## Citation record
+- Confirmed citation span: 75 years (1951–2025)
+- Cited in: academic journals, Wiley Encyclopedia of Reagents for Organic Synthesis (e-EROS, 2001), Acheson's Chemistry of Heterocyclic Compounds (Wiley, Vol. 9, 1973), Hermecz and Mészáros Advances in Heterocyclic Chemistry Vol. 33 (1983), Bossert and Vater Medicinal Research Reviews (1989)
+- Nifedipine inventors Bossert and Vater cite Antaki 1963 in their 1989 review — same synthetic lineage as amlodipine, felodipine, nicardipine
+
+## Medical relevance
+- Hexahydroquinoline scaffold: same synthetic lineage as calcium-channel-blocking cardiovascular drugs including nifedipine, amlodipine, felodipine, nicardipine
+- Pyrido[1,2-a]pyrimidine scaffold: antiparasitic, schistosomicidal applications
+- Benz[h]indenoquinoline scaffold: DNA intercalation, topoisomerase inhibition, OLED materials, bioimaging
+
+## Preprints
+- ChemRxiv (2026): The Antaki Synthesis Revisited. DOI: 10.26434/chemrxiv.15001039/v1
+- Zenodo (2026): Benz[h]indeno[1,2-b]quinolines: Priority and Potential. DOI: 10.5281/zenodo.19428030
 
 ## Pages
-- / — Biography, recognition, publications
-- /synthesis-1963 — The Antaki synthesis detail
-- /synthesis-1967 — Pentacyclic fluorescent compounds
+- / — Biography, recognition, publications, timeline
+- /synthesis-1963.html — The Antaki synthesis detail, reaction conditions, patents
+- /synthesis-1967.html — Pentacyclic fluorescent compounds, structural complexity, modern literature gap
+
+## About this site
+An independent scholarly project documenting the published scientific work of H. B. F. Antaki (1923–1993), compiled by his family.
 
 ## Contact
 contact@hekmatantaki.org
