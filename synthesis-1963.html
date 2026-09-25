@@ -9,13 +9,15 @@
   gtag('js', new Date());
   gtag('config', 'G-N0Z737W3VQ');
 </script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>The Antaki Synthesis (1963–1965) — Hexahydroquinoline (HHQ) and Acridinedione Chemistry</title>
 
 <meta name="description"
-content="The Antaki synthesis: H. Antaki's 1963 one-pot three-component method for hexahydroquinoline (HHQ) formation and its 1965 extension to acridinediones, with later medicinal, patent and laser-dye applications.">
-<meta name="description" content="The Antaki synthesis and its 1965 extension: a direct multicomponent method developed by H. Antaki for hexahydroquinolines and acridinediones, with later use in laser-dye and therapeutic chemistry.">
+content="The Antaki synthesis and its 1965 extension: a direct multicomponent method developed by H. Antaki for hexahydroquinolines and acridinediones, with later use in laser-dye and therapeutic chemistry.">
+
 <style>
   body {
     font-family: Georgia, serif;
@@ -26,12 +28,45 @@ content="The Antaki synthesis: H. Antaki's 1963 one-pot three-component method f
     line-height: 1.8;
     background: #fff;
   }
-  h1 { font-size: 1.8em; margin-bottom: 0.2em; color: #1a1a1a; }
-  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.3em; color: #333; }
-  .subtitle { color: #666; font-size: 1em; margin-bottom: 1.5em; font-style: italic; }
-  blockquote { border-left: 3px solid #2c5f8a; margin: 1.5em 0; padding-left: 1.2em; color: #444; font-style: italic; }
-  a { color: #2c5f8a; text-decoration: none; }
-  a:hover { text-decoration: underline; }
+
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 0.2em;
+    color: #1a1a1a;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    margin-top: 2em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3em;
+    color: #333;
+  }
+
+  .subtitle {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    font-style: italic;
+  }
+
+  blockquote {
+    border-left: 3px solid #2c5f8a;
+    margin: 1.5em 0;
+    padding-left: 1.2em;
+    color: #444;
+    font-style: italic;
+  }
+
+  a {
+    color: #2c5f8a;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
   .preprint-link {
     display: inline-block;
     margin-top: 1em;
@@ -42,40 +77,42 @@ content="The Antaki synthesis: H. Antaki's 1963 one-pot three-component method f
     font-family: Arial, sans-serif;
     font-size: 0.95em;
   }
-  .preprint-link:hover { background: #1a4a6e; text-decoration: none; }
+
+  .preprint-link:hover {
+    background: #1a4a6e;
+    text-decoration: none;
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
     margin: 1.5em 0;
     font-size: 0.95em;
   }
+
   th {
     background: #f5f5f5;
     text-align: left;
     padding: 0.5em 0.8em;
     border: 1px solid #ddd;
   }
+
   td {
     padding: 0.5em 0.8em;
     border: 1px solid #ddd;
     vertical-align: top;
   }
+
   .figure {
     margin: 2em 0;
     text-align: center;
   }
+
   .figure img {
     max-width: 100%;
     border: 1px solid #ddd;
   }
-  .figure-caption {
-    font-size: 0.88em;
-    color: #666;
-    font-family: Arial, sans-serif;
-    margin-top: 0.6em;
-    font-style: italic;
-    text-align: left;
-  }
+
   .highlight {
     background: #f0f4f8;
     border-left: 3px solid #888;
@@ -83,6 +120,7 @@ content="The Antaki synthesis: H. Antaki's 1963 one-pot three-component method f
     margin: 1.5em 0;
     font-size: 0.95em;
   }
+
   .footer {
     margin-top: 4em;
     padding-top: 1em;
@@ -91,7 +129,167 @@ content="The Antaki synthesis: H. Antaki's 1963 one-pot three-component method f
     color: #888;
     font-family: Arial, sans-serif;
   }
+
+  /* Development tree */
+  .synthesis-tree {
+    margin: 3em 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .synthesis-tree .tree-title {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 1.08em;
+    font-weight: bold;
+    margin-bottom: 1.7em;
+    color: #333;
+  }
+
+  .synthesis-tree .tree-root-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2em;
+    align-items: start;
+  }
+
+  .synthesis-tree .branch {
+    position: relative;
+  }
+
+  .synthesis-tree .node {
+    border: 1px solid #b8c4ce;
+    background: #f7f9fb;
+    border-radius: 5px;
+    padding: 0.75em 0.9em;
+    text-align: center;
+    line-height: 1.35;
+    margin: 0 auto;
+    max-width: 290px;
+  }
+
+  .synthesis-tree .node.primary {
+    border-left: 4px solid #2c5f8a;
+    background: #f0f4f8;
+  }
+
+  .synthesis-tree .node.extension {
+    border-left: 4px solid #777;
+    background: #f5f5f5;
+  }
+
+  .synthesis-tree .node.outcome {
+    background: #fff;
+    font-size: 0.9em;
+  }
+
+  .synthesis-tree .node .year {
+    font-weight: bold;
+  }
+
+  .synthesis-tree .node .small {
+    display: block;
+    margin-top: 0.25em;
+    font-size: 0.84em;
+    color: #666;
+  }
+
+  .synthesis-tree .vertical-line {
+    width: 1px;
+    height: 24px;
+    background: #999;
+    margin: 0 auto;
+  }
+
+  .synthesis-tree .vertical-line.dotted {
+    width: 0;
+    background: none;
+    border-left: 2px dotted #999;
+  }
+
+  .synthesis-tree .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    position: relative;
+    padding-top: 24px;
+  }
+
+  .synthesis-tree .split::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    border-top: 1px solid #999;
+  }
+
+  .synthesis-tree .split > div {
+    position: relative;
+  }
+
+  .synthesis-tree .split > div::before {
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    height: 24px;
+    border-left: 1px solid #999;
+  }
+
+  .synthesis-tree .legend {
+    margin-top: 1.6em;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  .synthesis-tree .legend span {
+    display: inline-block;
+    margin: 0 0.7em;
+  }
+
+  .synthesis-tree .solid-key,
+  .synthesis-tree .dotted-key {
+    display: inline-block;
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+  .synthesis-tree .solid-key {
+    border-top: 1px solid #777;
+  }
+
+  .synthesis-tree .dotted-key {
+    border-top: 2px dotted #999;
+  }
+
+  @media (max-width: 700px) {
+    .synthesis-tree .tree-root-row,
+    .synthesis-tree .split {
+      grid-template-columns: 1fr;
+    }
+
+    .synthesis-tree .tree-root-row {
+      gap: 2.5em;
+    }
+
+    .synthesis-tree .split {
+      padding-top: 0;
+      gap: 1.5em;
+    }
+
+    .synthesis-tree .split::before,
+    .synthesis-tree .split > div::before {
+      display: none;
+    }
+
+    .synthesis-tree .node {
+      max-width: 100%;
+    }
+  }
 </style>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -111,10 +309,13 @@ content="The Antaki synthesis: H. Antaki's 1963 one-pot three-component method f
     "https://doi.org/10.1007/BF00487103",
     "https://doi.org/10.1002/med.2610090304",
     "https://doi.org/10.1002/jhet.5570300428",
-    "https://doi.org/10.3389/fchem.2026.1769586"
+    "https://doi.org/10.3389/fchem.2026.1769586",
+    "https://doi.org/10.1038/s41564-017-0007-4",
+    "https://doi.org/10.3184/174751912X13319177859559"
   ]
 }
 </script>
+
 </head>
 
 <body>
@@ -132,6 +333,7 @@ content="The Antaki synthesis: H. Antaki's 1963 one-pot three-component method f
 </nav>
 
 <h1>The Antaki Synthesis</h1>
+
 <div class="subtitle">
   Three-component method for hexahydroquinoline formation and its extension to acridinediones —
   developed by H. Antaki, Research Institute for Tropical Medicine, Cairo, 1963–1965
@@ -140,24 +342,28 @@ content="The Antaki synthesis: H. Antaki's 1963 one-pot three-component method f
 <div class="figure">
   <img src="/antaki-synthesis-1963.jpg"
        alt="Schematic of the Antaki three-component synthesis (1963): cyclohexane-1,3-dione, aromatic aldehyde, and ethyl beta-aminocrotonate react in ethanol and glacial acetic acid under reflux for one hour to yield ethyl 4-aryl-1,4,5,6,7,8-hexahydro-2-methyl-5-oxoquinoline-3-carboxylate. No metal catalyst or inert atmosphere required.">
-  <p class="figure-caption">Figure 1. The Antaki three-component synthesis (1963). Cyclohexane-1,3-dione, an aromatic aldehyde (Ar-CHO), and ethyl &beta;-aminocrotonate react in ethanol/glacial acetic acid under reflux for one hour to yield the hexahydroquinoline ester (I). Further oxidative dehydrogenation with chromium trioxide (CrO<sub>3</sub>/AcOH) gives the tetrahydroquinoline (II). No metal catalysts or inert atmosphere required.</p>
 </div>
 
 <h2>The Synthesis</h2>
+
 <p>
 In 1963, Hekmat Bechir Fathallah Antaki reported the first synthesis of ethyl 4-aryl-1,4,5,6,7,8-hexahydro-2-methyl-5-oxoquinoline-3-carboxylates via three-component condensation of cyclohexane-1,3-dione, aromatic aldehydes, and ethyl &beta;-aminocrotonate in ethanol and glacial acetic acid under reflux for one hour.
 </p>
+
 <p>
 Antaki developed the method because the routes then available could not do this work. As he stated in the 1963 paper, "the few routes reported for the synthesis of <em>Bz</em>-tetrahydroquinolines were not adaptable for preparation of these derivatives." The three-component condensation he introduced resolved that limitation directly.
 </p>
+
 <p>
 The reported synthesis uses no transition-metal catalyst or inert atmosphere. The three components are combined under ordinary reflux conditions, and in the reported preparations the product crystallises directly from the reaction mixture. Antaki reported a full series of aryl substituents at the 4-position — p-nitrophenyl, p-methoxyphenyl, 3,4-dimethoxyphenyl, p-dimethylaminophenyl, p-chlorophenyl, and o-nitrophenyl derivatives — with melting points and elemental analyses fully documented.
 </p>
+
 <p>
 The hexahydroquinoline intermediates were further subjected to oxidative dehydrogenation by chromium trioxide in dilute acetic acid to yield the corresponding 5,6,7,8-tetrahydroquinolines, demonstrating controlled manipulation of scaffold oxidation state.
 </p>
 
 <h2>Original Reaction Conditions (1963)</h2>
+
 <table>
   <tr><th>Parameter</th><th>Detail</th></tr>
   <tr><td>Reactants</td><td>Cyclohexane-1,3-dione · Aromatic aldehyde · Ethyl &beta;-aminocrotonate</td></tr>
@@ -172,75 +378,260 @@ The hexahydroquinoline intermediates were further subjected to oxidative dehydro
 </table>
 
 <h2>Extension of the Method: Acridinediones (1963–1965)</h2>
+
 <p>
 The 1963 paper did not stop at the hexahydroquinoline series. Antaki also showed that replacing ethyl &beta;-aminocrotonate with ammonium acetate redirected the same direct condensation chemistry toward 9-aryldecahydro-1,8-dioxoacridines.
 </p>
+
 <p>
 Two years later he returned specifically to this branch of the method. The opening sentence of his 1965 paper makes the continuity explicit:
 </p>
+
 <blockquote>
 "After synthesis of 9-aryldecahydro-1,8-dioxoacridines by condensing aromatic aldehydes with cyclohexane-1,3-dione in presence of ammonium acetate we have extended the reaction to aromatic amines…" — H. Antaki, <em>J. Chem. Soc.</em>, 1965, 2263–2264
 </blockquote>
+
 <p>
 In the 1965 extension, aromatic amines replaced ammonium acetate, allowing direct preparation of 9,10-diaryl-1,8-dioxodecahydroacridines. For example, <em>p</em>-nitrobenzaldehyde, cyclohexane-1,3-dione and aniline were refluxed together in glacial acetic acid for one hour to give the corresponding 9,10-diaryl acridinedione.
 </p>
+
 <p>
 The significance of the paper lies in the adaptability of the method. The nitrogen component could be changed while retaining the same convergent approach: relatively simple components were brought together directly to construct a condensed nitrogen heterocycle.
 </p>
+
 <p>
 Antaki also tested how the chemistry proceeded. With 2-aminopyridine and its 4-methyl derivative, the corresponding octahydro-1,8-dioxoxanthene was isolated instead. Treatment of that xanthene with aromatic amines returned it unchanged, leading Antaki to conclude that the aromatic-amine reaction did not proceed through the isolated xanthene. He also showed that xanthenes could be converted smoothly to acridines with ammonium acetate, while arylidene-biscyclohexane-1,3-diones reacted with aromatic amines to give 9,10-diaryl acridinediones.
 </p>
+
 <div class="highlight">
-<p>The 1965 paper therefore did more than add derivatives. It demonstrated that the chemistry introduced in 1963 could be extended into a broader synthetic method.</p>
+  <p>
+    The 1965 paper therefore did more than add derivatives. It demonstrated that the chemistry introduced in 1963 could be extended into a broader synthetic method.
+  </p>
 </div>
 
+<!-- DEVELOPMENT TREE -->
+
+<div class="synthesis-tree">
+
+  <div class="tree-title">
+    Development and Later Reach of Antaki's 1963–1967 Chemistry
+  </div>
+
+  <div class="tree-root-row">
+
+    <!-- 1963 line -->
+    <div class="branch">
+
+      <div class="node primary">
+        <span class="year">1963</span><br>
+        Hexahydroquinoline synthesis
+        <span class="small"><em>J. Chem. Soc.</em>, 4877–4879</span>
+      </div>
+
+      <div class="vertical-line"></div>
+
+      <div class="split">
+
+        <!-- HHQ medicinal branch -->
+        <div>
+
+          <div class="node">
+            HHQ three-component method
+          </div>
+
+          <div class="vertical-line"></div>
+
+          <div class="node outcome">
+            <strong>Bossert &amp; Vater, 1989</strong>
+            <span class="small">HHQ medicinal-chemistry development</span>
+          </div>
+
+          <div class="vertical-line dotted"></div>
+
+          <div class="node outcome">
+            <strong>Antimalarial HHQs — 2017</strong>
+            <span class="small"><em>Nature Microbiology</em></span>
+            <span class="small">Rose &amp; Dräger (1992) cited for the related HHQ chemistry</span>
+          </div>
+
+        </div>
+
+        <!-- 1965 acridinedione branch -->
+        <div>
+
+          <div class="node extension">
+            <span class="year">1965 extension</span><br>
+            Acridinediones
+            <span class="small"><em>J. Chem. Soc.</em>, 2263–2264</span>
+          </div>
+
+          <div class="vertical-line"></div>
+
+          <div class="split">
+
+            <div>
+              <div class="node outcome">
+                <strong>Zeneca / ICI</strong>
+                <span class="small">1963 reaction conditions cited as synthetic precedent for acridinedione chemistry</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="node outcome">
+                <strong>Laser dyes — 1993</strong>
+                <span class="small">Antaki's acridinedione procedure tested, modified and improved</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- 1967 separate line -->
+    <div class="branch">
+
+      <div class="node primary">
+        <span class="year">1967</span><br>
+        Benz- and naphth-indenoquinolines
+        <span class="small"><em>J. Chem. Soc. C</em>, 1581–1582</span>
+      </div>
+
+      <div class="vertical-line"></div>
+
+      <div class="split">
+
+        <!-- 8-oxo line -->
+        <div>
+
+          <div class="node">
+            7-Aryl-8-oxo-benzo[h]indeno[1,2-b]quinolines
+          </div>
+
+          <div class="vertical-line"></div>
+
+          <div class="node outcome">
+            <strong>Mamaghani &amp; Larghani — 2012</strong>
+            <span class="small">Same benzo[h]indeno[1,2-b]quinolin-8-one series</span>
+            <span class="small">Antaki 1967 cited directly</span>
+          </div>
+
+          <div class="vertical-line dotted"></div>
+
+          <div class="node outcome">
+            <strong>Later indenoquinoline inhibitor chemistry</strong>
+            <span class="small">Later medicinal development of the scaffold family</span>
+          </div>
+
+        </div>
+
+        <!-- fluorescence line -->
+        <div>
+
+          <div class="node">
+            Wolff–Kishner reduction
+          </div>
+
+          <div class="vertical-line"></div>
+
+          <div class="node outcome">
+            <strong>7-Phenyl-8H-benzo[h]indeno[1,2-b]quinoline</strong>
+            <span class="small">Intense blue fluorescence</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="legend">
+    <span>
+      <span class="solid-key"></span>
+      documented development / direct citation
+    </span>
+    <span>
+      <span class="dotted-key"></span>
+      later scaffold relationship / indirect lineage
+    </span>
+  </div>
+
+</div>
+
+<!-- END DEVELOPMENT TREE -->
+
 <h2>Contemporary Recognition of the Method</h2>
+
 <p>
-The continuity between the 1963 and 1965 papers was recognised in the specialist literature within a decade. In I. A. Selby's chapter <em>Acridinium Salts and Reduced Acridines</em>, in R. M. Acheson (ed.), <em>Chemistry of Heterocyclic Compounds: Acridines</em>, Vol. 9 (Wiley, 1973), Antaki's 1963 paper appears as reference <strong>324</strong> for the preparation of decahydro-1,8-acridinediones from aromatic aldehydes, cyclohexane-1,3-dione and ammonium acetate. The immediately following discussion cites Antaki's 1965 paper as reference <strong>325</strong> for the use of aromatic amines instead of ammonium acetate to give 9,10-diaryldecahydro-1,8-acridinediones. The two papers were thus presented consecutively as stages in the same synthetic development. <a href="https://doi.org/10.1002/9780470186596.ch6" target="_blank">DOI: 10.1002/9780470186596.ch6</a>
+The continuity between the 1963 and 1965 papers was recognised in the specialist literature within a decade. In I. A. Selby's chapter <em>Acridinium Salts and Reduced Acridines</em>, in R. M. Acheson (ed.), <em>Chemistry of Heterocyclic Compounds: Acridines</em>, Vol. 9 (Wiley, 1973), Antaki's 1963 paper appears as reference <strong>324</strong> for the preparation of decahydro-1,8-acridinediones from aromatic aldehydes, cyclohexane-1,3-dione and ammonium acetate. The immediately following discussion cites Antaki's 1965 paper as reference <strong>325</strong> for the use of aromatic amines instead of ammonium acetate to give 9,10-diaryldecahydro-1,8-acridinediones. The two papers were thus presented consecutively as stages in the same synthetic development.
+<a href="https://doi.org/10.1002/9780470186596.ch6" target="_blank">DOI: 10.1002/9780470186596.ch6</a>
 </p>
+
 <p>
-A second specialist review followed in 1974. A. Ya. Strakov, E. Yu. Gudrinietse and D. R. Zitsane, <em>Synthesis of Heterocyclic Compounds from Cyclohexane-1,3-diones (review)</em>, <em>Chemistry of Heterocyclic Compounds</em> <strong>10</strong> (1974), 881–897, cites Antaki's 1965 paper as reference <strong>136</strong> and his 1963 paper as reference <strong>138</strong>. The 1963 paper is specifically cited for direct formation of decahydroacridines from cyclohexane-1,3-diones, aromatic aldehydes and ammonium acetate; the 1965 paper is cited within the related acridinedione chemistry. <a href="https://doi.org/10.1007/BF00487103" target="_blank">DOI: 10.1007/BF00487103</a>
+A second specialist review followed in 1974. A. Ya. Strakov, E. Yu. Gudrinietse and D. R. Zitsane, <em>Synthesis of Heterocyclic Compounds from Cyclohexane-1,3-diones (review)</em>, <em>Chemistry of Heterocyclic Compounds</em> <strong>10</strong> (1974), 881–897, cites Antaki's 1965 paper as reference <strong>136</strong> and his 1963 paper as reference <strong>138</strong>. The 1963 paper is specifically cited for direct formation of decahydroacridines from cyclohexane-1,3-diones, aromatic aldehydes and ammonium acetate; the 1965 paper is cited within the related acridinedione chemistry.
+<a href="https://doi.org/10.1007/BF00487103" target="_blank">DOI: 10.1007/BF00487103</a>
 </p>
 
 <h2>Recognition in Medicinal Chemistry</h2>
+
 <p>
 The significance of Antaki's 1963 work was not that he developed every later application of the hexahydroquinoline scaffold himself. It was that he made a flexible condensed heterocyclic framework accessible by a direct synthetic route and demonstrated that the aryl substituent could be varied systematically. That combination — an accessible scaffold with a modifiable aryl position — gave later medicinal chemists a practical platform on which to build.
 </p>
+
 <p>
 Twenty-six years later, Bossert and Vater described how hexahydroquinoline derivatives had drawn their attention:
 </p>
+
 <blockquote>
 “Hexahydroquinoline derivatives<sup>7</sup> aroused our interest. The surprisingly good effect of 4-&alpha;-pyridylhexahydroquinoline-3-carboxylic acid ester 72, which, because of its basic center, was the first of these compounds to be synthesized, became apparent in the IV study, but was not obtainable in the oral study.”
 </blockquote>
+
 <p>
 Reference 7 is Antaki's 1963 <em>Journal of the Chemical Society</em> paper. The value of this passage is not that Bossert and Vater validate Antaki's synthesis, but that it documents a later medicinal-chemistry programme beginning from the class of compounds Antaki had already made accessible.
 </p>
+
 <p>
-Bossert, F.; Vater, W. <em>1,4-Dihydropyridines—a basis for developing new drugs</em>. <em>Medicinal Research Reviews</em> <strong>9</strong> (1989), 291–324. <a href="https://doi.org/10.1002/med.2610090304" target="_blank">DOI: 10.1002/med.2610090304</a>
+Bossert, F.; Vater, W. <em>1,4-Dihydropyridines—a basis for developing new drugs</em>. <em>Medicinal Research Reviews</em> <strong>9</strong> (1989), 291–324.
+<a href="https://doi.org/10.1002/med.2610090304" target="_blank">DOI: 10.1002/med.2610090304</a>
 </p>
 
 <h2>Later Use of the Acridinedione Branch</h2>
+
 <p>
 The method later appeared in two very different application areas.
 </p>
+
 <p>
 In 1993, Palanisamy Shanmugasundaram, K. Joseph Prabahar and Vayalakkavoor T. Ramakrishnan explicitly returned to Antaki's 1965 procedure while developing acridinediones as a new class of laser dyes. Antaki's 1965 paper is their reference <strong>7</strong>, and his 1963 paper is reference <strong>8</strong>. They wrote:
 </p>
+
 <blockquote>
 "Antaki [7] reported the condensation of 2,2′-arylidene-bis(cyclohexane-1,3-diketone) with aromatic amines giving very low yields of acridinediones. The above procedure was modified to obtain the products 2 in good yields."
 </blockquote>
+
 <p>
-The authors experimentally revisited the earlier conditions. Refluxing the arylidene-bis(cyclohexane-1,3-dione) and aromatic amine in 100 mL of acetic acid produced only traces of acridinedione, with dioxoxanthene as the major product; reducing the acetic-acid volume to 10 mL gave good yields. The resulting acridinediones were investigated as laser dyes, with several lasing around 475–495 nm and compared experimentally with coumarin 102. The connection is therefore methodological, not merely bibliographic: Antaki's 1965 procedure was tested, modified and improved. <a href="https://doi.org/10.1002/jhet.5570300428" target="_blank">DOI: 10.1002/jhet.5570300428</a>
+The authors experimentally revisited the earlier conditions. Refluxing the arylidene-bis(cyclohexane-1,3-dione) and aromatic amine in 100 mL of acetic acid produced only traces of acridinedione, with dioxoxanthene as the major product; reducing the acetic-acid volume to 10 mL gave good yields. The resulting acridinediones were investigated as laser dyes, with several lasing around 475–495 nm and compared experimentally with coumarin 102. The connection is therefore methodological, not merely bibliographic: Antaki's 1965 procedure was tested, modified and improved.
+<a href="https://doi.org/10.1002/jhet.5570300428" target="_blank">DOI: 10.1002/jhet.5570300428</a>
 </p>
+
 <p>
 A separate industrial application appeared at approximately the same time. Zeneca/ICI patents concerning therapeutic acridine-1,8-diones described routes involving an aromatic aldehyde, ammonia or an ammonium salt, and cyclohexane-1,3-dione. In discussing suitable conditions, the patent states:
 </p>
+
 <blockquote>
 "Suitable reaction conditions are also reported by Antaki in J. Chem. Soc., 4877 (1963)."
 </blockquote>
+
 <p>
-The citation establishes Antaki's 1963 conditions as relevant synthetic precedent for Zeneca's acridinedione patent chemistry. <a href="https://patents.google.com/patent/EP0539154B1/en" target="_blank">EP 0539154 B1</a>
+The citation establishes Antaki's 1963 conditions as relevant synthetic precedent for Zeneca's acridinedione patent chemistry.
+<a href="https://patents.google.com/patent/EP0539154B1/en" target="_blank">EP 0539154 B1</a>
 </p>
+
 <p>
 Among the downstream uses identified so far, these provide two particularly distinct examples of the method's later reach: acridinediones developed as laser-active materials and acridinediones investigated in industrial therapeutic chemistry. The applications were unrelated; the common element was the continuing utility of the synthetic method.
 </p>
@@ -248,17 +639,21 @@ Among the downstream uses identified so far, these provide two particularly dist
 <p>
 Returning to the hexahydroquinoline series that opened this synthesis, the method has been formally classified as the <strong>Antaki synthesis</strong> — alongside the Hantzsch and Stankevich reactions — as one of three foundational multicomponent methods for hexahydroquinoline formation:
 </p>
+
 <blockquote>
 "These approaches established the mechanistic foundation for multicomponent HHQ formation and provided a framework for structural diversification in modern synthesis." — Oduselu et al., <em>Frontiers in Chemistry</em>, 2026
 </blockquote>
+
 <p>
 <a href="https://doi.org/10.3389/fchem.2026.1769586" target="_blank">DOI: 10.3389/fchem.2026.1769586</a>
 </p>
 
 <h2>Pharmaceutical Confirmation</h2>
+
 <p>
 The 1963 <em>J. Chem. Soc.</em> paper entered industrial patent literature through a substantial group of later pharmaceutical filings. The patents below are the families in the documented patent record that specifically cite the 1963 synthesis; patents citing Antaki's 1951, 1958, or 1962 papers are not included here.
 </p>
+
 <table>
   <tr><th>Patent</th><th>Assignee</th><th>Published</th></tr>
   <tr><td><a href="https://patents.google.com/patent/EP0539153/en" target="_blank">EP 0539153</a></td><td>Zeneca</td><td>1993</td></tr>
@@ -272,53 +667,84 @@ The 1963 <em>J. Chem. Soc.</em> paper entered industrial patent literature throu
   <tr><td><a href="https://patents.google.com/patent/US5622964/en" target="_blank">US 5,622,964</a></td><td>Zeneca</td><td>1997-04-22</td></tr>
   <tr><td><a href="https://patents.google.com/patent/US8716319/en" target="_blank">US 8,716,319</a></td><td>Gilead Sciences</td><td>2014-05-06</td></tr>
 </table>
+
 <p>
 The Zeneca/ICI family is discussed above because it directly identifies Antaki's 1963 reaction conditions as suitable precedent for acridinedione preparation. The later Gilead citation shows that the 1963 paper remained present in pharmaceutical prior art decades afterward.
 </p>
 
 <h2>Antimalarial Relevance</h2>
+
 <p>
 The hexahydroquinoline scaffold has attracted renewed pharmaceutical interest in antimalarial drug discovery as resistance to artemisinin-based therapies grows (Oduselu et al., <em>Frontiers in Chemistry</em>, 2026). Antaki directed his programme explicitly toward antiparasitic applications:
 </p>
+
 <blockquote>
-"In continuation of previous work on the schistosomicidal activity in the pyrido[1,2-a]pyrimidine series, the synthesis of some basic derivatives was considered." — H. Antaki, <em>J. Org. Chem.</em>, 1962. <a href="https://doi.org/10.1021/jo01051a058" target="_blank">DOI: 10.1021/jo01051a058</a>
+"In continuation of previous work on the schistosomicidal activity in the pyrido[1,2-a]pyrimidine series, the synthesis of some basic derivatives was considered." — H. Antaki, <em>J. Org. Chem.</em>, 1962.
+<a href="https://doi.org/10.1021/jo01051a058" target="_blank">DOI: 10.1021/jo01051a058</a>
 </blockquote>
+
 <p>
 He was working on diseases of the poor, with tools accessible to resource-limited laboratories, six decades before the current antimalarial interest in this scaffold.
 </p>
+
 <p>
 That intent is now supported by direct evidence. In independent antimalarial screening, Antaki's 1963 4-(4-nitrophenyl) hexahydroquinoline was active against <em>Plasmodium falciparum</em> — EC<sub>50</sub> 0.57 µM against the drug-resistant W2 strain and 0.90 µM against the drug-susceptible 3D7 strain — while cytotoxicity against human Huh7 cells appeared only at CC<sub>50</sub> 100 µM, a selectivity of roughly two orders of magnitude in that screening system (PubChem CID 2845068).
 </p>
 
 <h2>Selected Secondary Sources</h2>
+
 <p>
-Selby, I. A. <em>Acridinium Salts and Reduced Acridines</em>, in R. M. Acheson (ed.), <em>Chemistry of Heterocyclic Compounds: Acridines</em>, Vol. 9, Wiley, 1973. <a href="https://doi.org/10.1002/9780470186596.ch6" target="_blank">DOI: 10.1002/9780470186596.ch6</a>
+Selby, I. A. <em>Acridinium Salts and Reduced Acridines</em>, in R. M. Acheson (ed.), <em>Chemistry of Heterocyclic Compounds: Acridines</em>, Vol. 9, Wiley, 1973.
+<a href="https://doi.org/10.1002/9780470186596.ch6" target="_blank">DOI: 10.1002/9780470186596.ch6</a>
 </p>
+
 <p>
-Strakov, A. Ya.; Gudrinietse, E. Yu.; Zitsane, D. R. <em>Synthesis of Heterocyclic Compounds from Cyclohexane-1,3-diones (review)</em>. <em>Chemistry of Heterocyclic Compounds</em> <strong>10</strong> (1974), 881–897. <a href="https://doi.org/10.1007/BF00487103" target="_blank">DOI: 10.1007/BF00487103</a>
+Strakov, A. Ya.; Gudrinietse, E. Yu.; Zitsane, D. R. <em>Synthesis of Heterocyclic Compounds from Cyclohexane-1,3-diones (review)</em>. <em>Chemistry of Heterocyclic Compounds</em> <strong>10</strong> (1974), 881–897.
+<a href="https://doi.org/10.1007/BF00487103" target="_blank">DOI: 10.1007/BF00487103</a>
 </p>
+
 <p>
-Bossert, F.; Vater, W. <em>1,4-Dihydropyridines—a basis for developing new drugs</em>. <em>Medicinal Research Reviews</em> <strong>9</strong> (1989), 291–324. <a href="https://doi.org/10.1002/med.2610090304" target="_blank">DOI: 10.1002/med.2610090304</a>
+Bossert, F.; Vater, W. <em>1,4-Dihydropyridines—a basis for developing new drugs</em>. <em>Medicinal Research Reviews</em> <strong>9</strong> (1989), 291–324.
+<a href="https://doi.org/10.1002/med.2610090304" target="_blank">DOI: 10.1002/med.2610090304</a>
 </p>
+
 <p>
-Shanmugasundaram, P.; Prabahar, K. J.; Ramakrishnan, V. T. <em>A New Class of Laser Dyes from Acridinedione Derivatives</em>. <em>Journal of Heterocyclic Chemistry</em> <strong>30</strong> (1993), 1003–1007. <a href="https://doi.org/10.1002/jhet.5570300428" target="_blank">DOI: 10.1002/jhet.5570300428</a>
+Shanmugasundaram, P.; Prabahar, K. J.; Ramakrishnan, V. T. <em>A New Class of Laser Dyes from Acridinedione Derivatives</em>. <em>Journal of Heterocyclic Chemistry</em> <strong>30</strong> (1993), 1003–1007.
+<a href="https://doi.org/10.1002/jhet.5570300428" target="_blank">DOI: 10.1002/jhet.5570300428</a>
 </p>
+
 <p>
-Oduselu, G. O. et al. <em>Emerging insights into chemistry and therapeutic potentials of functionalized hexahydroquinolines</em>. <em>Frontiers in Chemistry</em> (2026). <a href="https://doi.org/10.3389/fchem.2026.1769586" target="_blank">DOI: 10.3389/fchem.2026.1769586</a>
+Vanaerschot, M. et al. <em>Hexahydroquinolines are antimalarial candidates with potent blood-stage and transmission-blocking activity</em>. <em>Nature Microbiology</em> <strong>2</strong> (2017), 1403–1414.
+<a href="https://doi.org/10.1038/s41564-017-0007-4" target="_blank">DOI: 10.1038/s41564-017-0007-4</a>
+</p>
+
+<p>
+Mamaghani, M.; Larghani, T. H. <em>Ultrasound promoted one-pot three-component synthesis of novel 7-aryl-8H-benzo[h]indeno[1,2-b]quinolin-8-ones under solvent-free conditions</em>. <em>Journal of Chemical Research</em> <strong>36</strong> (2012), 235–237.
+<a href="https://doi.org/10.3184/174751912X13319177859559" target="_blank">DOI: 10.3184/174751912X13319177859559</a>
+</p>
+
+<p>
+Oduselu, G. O. et al. <em>Emerging insights into chemistry and therapeutic potentials of functionalized hexahydroquinolines</em>. <em>Frontiers in Chemistry</em> (2026).
+<a href="https://doi.org/10.3389/fchem.2026.1769586" target="_blank">DOI: 10.3389/fchem.2026.1769586</a>
 </p>
 
 <h2>Primary Sources</h2>
+
 <p>
-Antaki, H. The Synthesis of Ethyl 4-Aryl-5,6,7,8-tetrahydro-5-oxoquinoline-3-carboxylates and their Derivatives. <em>J. Chem. Soc.</em> 1963, 4877–4879. <a href="https://doi.org/10.1039/JR9630004877" target="_blank">DOI: 10.1039/JR9630004877</a>
+Antaki, H. The Synthesis of Ethyl 4-Aryl-5,6,7,8-tetrahydro-5-oxoquinoline-3-carboxylates and their Derivatives. <em>J. Chem. Soc.</em> 1963, 4877–4879.
+<a href="https://doi.org/10.1039/JR9630004877" target="_blank">DOI: 10.1039/JR9630004877</a>
 </p>
+
 <p>
 Antaki, H. Some Derivatives of Decahydro-1,8-dioxoacridine. <em>J. Chem. Soc.</em> 1965, 2263–2264.
 </p>
 
 <h2>Preprint (2026)</h2>
+
 <p>
 A Perspective consolidating the synthesis, its spectroscopic framework, and its antimalarial relevance is available as a preprint on ChemRxiv:
 </p>
+
 <a class="preprint-link"
    href="https://doi.org/10.26434/chemrxiv.15001039/v1"
    target="_blank">
@@ -326,11 +752,23 @@ A Perspective consolidating the synthesis, its spectroscopic framework, and its 
 </a>
 
 <div class="footer">
-  <p>This site compiles and presents published references to the scientific work of H. B. F. Antaki (1923–1993).<br>
-  Established 4 April 2026 · Last updated 17 September 2026.</p>
-  <p>An independent scholarly project compiled by his family.</p>
-  <p>Contact: <a href="mailto:contact@hekmatantaki.org">contact@hekmatantaki.org</a></p>
-  <p style="font-style: italic; color: #666;">Every claim on this site rests on a primary source. In maintaining that standard, much has been left unsaid. The author apologises to his father's memory for the understatement — and hopes the record speaks for itself.</p>
+  <p>
+    This site compiles and presents published references to the scientific work of H. B. F. Antaki (1923–1993).<br>
+    Established 4 April 2026 · Last updated 17 September 2026.
+  </p>
+
+  <p>
+    An independent scholarly project compiled by his family.
+  </p>
+
+  <p>
+    Contact:
+    <a href="mailto:contact@hekmatantaki.org">contact@hekmatantaki.org</a>
+  </p>
+
+  <p style="font-style: italic; color: #666;">
+    Every claim on this site rests on a primary source. In maintaining that standard, much has been left unsaid. The author apologises to his father's memory for the understatement — and hopes the record speaks for itself.
+  </p>
 </div>
 
 </body>
